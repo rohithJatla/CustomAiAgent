@@ -1,0 +1,12 @@
+gdrive:
+  folder_id: "your-google-drive-folder-id"
+  service_account_file: "configs/service_account.json"
+
+embedding:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+
+rag_model:
+  model_path: "sentence-transformers/all-MiniLM-L6-v2"
+
+telegram:
+  bot_token: "YOUR-TELEGRAM-BOT-TOKEN"
